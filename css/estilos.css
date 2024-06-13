@@ -103,6 +103,49 @@ body {
     width: 30px;
 }
 
+/*SUBMENU IDIOMA*/
+.develop{
+    text-decoration: none;
+    list-style: none;
+}
+
+.cont-ul{
+    text-decoration: none;
+    color: #ffffffc3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+.ul-second li{
+    list-style: none;
+    cursor: pointer;
+    color: #ffffffc3 ;
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+}
+.ul-second li:hover{
+    background-color: #c9c94c85;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.ul-second{
+    position: absolute;
+    display: none;
+   
+}
+
+.develop:hover > .ul-second{
+    display: block;
+}
+
 
 .nav__close {
     display: var(--show, none);
